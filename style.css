@@ -1,0 +1,340 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(216, 239, 240);
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* header for home page */
+.header {
+    color: #34252F;
+    background-color: #94bee5;
+    text-align: center;
+    margin-bottom: .5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#h1title {
+    border: 5px solid rgb(0, 50, 116);
+}
+.h3 {
+    color: #34252F;
+    background-color: #94bee5;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: .5%;
+
+}
+h1 {
+    background-color: #94bee5;
+    color: #34252F;
+    text-align: center;
+    padding: .5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: .5%;
+    margin-top: 1.5%;
+}
+/* header for TakeAction page */
+#h3TakeAction {
+    margin-top: 1.5%;
+    color: #34252F;
+    background-color: #94bee5;
+    text-align: center;
+    padding: .5%;
+}
+#introTakeAction {
+    color: #34252F;
+    background-color: #94bee5;
+    text-align: center;
+    padding: .5%;
+}
+/*Text for take action page*/
+.lifstlyeText {
+    text-align: center;
+    margin-left: 70%;
+    margin-right: 10%;
+    position: relative;
+    top: -52%;
+    width: 20%;
+    height: 15%;
+    padding: 1.5%;
+    background-color: #94bee5;
+
+}
+#lifestlyeTitle {
+    text-align: center;
+    margin-left: 70%;
+    margin-right: 10%;
+    position: relative;
+    top: -52%;
+    left: 2%;
+
+}
+.donateText {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    position: relative;
+    top: 8.5%;
+    width: 20%;
+    height: 15%;
+    padding: 1.5%;
+    background-color: #94bee5;
+
+}
+#donateTitle{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    position: relative;
+    top: 8.5%;
+    width: 20%;
+    left: 1.5%;
+
+}
+.petitionText{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 70%;
+    position: relative;
+    top: -27.5%;
+    width: 20%;
+    height: 15%;
+    padding: 1.5%;
+    background-color: #94bee5;
+
+}
+#petitionTitle{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 70%;
+    position: relative;
+    width: 20%;
+    height: 15%;
+    top: -15%;
+    left: 2%;
+
+}
+/*img for take action page*/
+#Imgchange {
+    margin-left: 31.5%;
+    position: relative;
+    top: -400px;
+    width: 40%;
+    height: 40%;
+    border: 5px solid #94bee5;
+}
+
+
+/* STYLE NAV BAR */
+.nav{
+    background-color:#94bee5;
+
+}
+ul {
+    list-style-type:none;
+    padding: 1.5em;
+
+}
+li {
+    display:inline;
+    padding-right: 92px
+}
+li a {
+    text-decoration:none;
+    font-size: 20px;
+    color: #34252F;
+    font-weight: bold
+}
+li a:hover {
+    background-color:#94bee5;
+}
+
+
+
+/* Flex container */
+.flexboxContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.flexItem {
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-top: 2%;
+    background-color: rgb(126, 170, 228)
+}
+img {
+    height: 50%;
+    width: 70%;
+    border: 5px solid rgb(35, 64, 158);
+}
+.subtitle{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+@media screen and (max-width: 850px){
+    .flexboxContainer {
+        flex-wrap:wrap;
+    }
+}
+
+
+/*format for about page iframe*/
+#iframe{
+    position: relative;
+    top: -44%;
+    left: 9%;
+    font-weight: bold;
+    color: #34252F;
+}
+.iframeTitle {
+    position: relative;
+    top: 10px;
+    left: -30%;
+    font-weight: bold;
+    color: #34252F;
+    text-align: center;
+}
+
+/*format for about page map*/
+#hungerMap{
+    padding: .5%;
+    border: 5px solid SaddleBrown;
+    width: 50%;
+    height: 55%;
+    position: relative;
+    top: 7%;
+    left: 24%;
+}
+#hungerMapTitle{
+    position: relative;
+    top: -58%;
+    left: 65%;
+}
+#sourceAbout{
+    text-decoration:none;
+    position: relative;
+    top: 8%;
+    left: 0%;
+}
+#sourceIntro{
+    position: relative;
+    top: 8%;
+    left: 60%;
+}
+
+/*about page text format*/
+#question1{
+    color: #34252F;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-bottom: .5%;
+    position: relative;
+    top: -47%;
+}
+#answer1{
+    background-color: rgb(49, 164, 209);
+    margin-right: 57.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+    position: relative;
+    top: -47%;
+    border: 3px solid rgb(17, 89, 117);
+    padding: .5%;
+}
+#question2{
+    color: #34252F;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-bottom: .5%;
+    position: relative;
+    top: -47%;
+}
+#answer2 {
+    background-color: rgb(49, 164, 209);
+    margin-right: 57.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+    position: relative;
+    top: -47%;
+    border: 3px solid rgb(17, 89, 117);
+    padding: .5%;
+}
+#question3{
+    color: #34252F;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-bottom: .5%;
+    position: relative;
+    top: -47%;
+}
+#answer3{
+    background-color: rgb(49, 164, 209);
+    margin-right: 57.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+    position: relative;
+    top: -47%;
+    border: 3px solid rgb(17, 89, 117);
+    padding: .5%;
+}
+#question4{
+    color: #34252F;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-bottom: .5%;
+    position: relative;
+    top: -47%;
+}
+#answer4{
+    background-color: rgb(49, 164, 209);
+    margin-right: 57.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+    position: relative;
+    top: -47%;
+    border: 3px solid rgb(17, 89, 117);
+    padding: .5%;
+}
+
+/*Fact generator*/
+.genFact {
+    border: 7px solid rgb(19, 40, 100);
+    background-color: #7fd2f3;
+    color: rgb(37, 39, 52);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: .5%;
+    margin-top: 1.5%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    padding-left: 2%;
+    padding-right:2%;
+}
+#source {
+    text-decoration:none;
+}
+
+#myButton{
+    background-color:#153268;
+    border: 7px solid rgb(55, 20, 209);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    height: 20%;
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    padding-left: 2%;
+    padding-right:2%;
+    border-radius:50%;
+}
